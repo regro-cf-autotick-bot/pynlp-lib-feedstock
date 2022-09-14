@@ -1,5 +1,5 @@
 {% set name = "pynlp-lib" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pynlp-lib-{{ version }}.tar.gz
-  sha256: 20e9c4bea16e8c559391ecfa9e965254a35745ac9b1da03f356bebfba76a9cbc
+  sha256: 0747427f892bf27dfa6d62fe8c338b65b9adb57e1b61f43ac8c081c16f9fd4e3
 
 build:
   noarch: python
